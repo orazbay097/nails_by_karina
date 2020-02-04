@@ -1,0 +1,35 @@
+.section-about-me {
+    font-family: 'Roboto',
+        sans-serif;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 600px) {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}
+
+.section-about-me__image {
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+
+
+}
+
+.section-about-me__text {
+    padding: 0 20px
+}
+
+.section-about-me__title-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-about-me__main-text {
+    color: #aea7a7;
+    font-size: 20px;
+    font-style: italic;
+}
