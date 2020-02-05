@@ -1,0 +1,24 @@
+.section-services {
+    // background: #e6b1b1;
+    // background: linear-gradient(45deg, pink, transparent);
+    background: #f8f8f8;
+
+    @media screen and (max-width: 600px) {
+        padding: 70px 15px;
+    }
+
+
+}
+
+.section-services__items {
+    @media screen and (min-width: 861px) {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}
+
+.section-services__title {
+    // color: #ef70a8;
+    // background: white;
+    padding: 7px;
+}

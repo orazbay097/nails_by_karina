@@ -1,10 +1,10 @@
 .section-about-me {
-    font-family: 'Roboto',
-        sans-serif;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
 
+
+}
+
+.section-about-me__inner {
     @media screen and (min-width: 600px) {
         flex-wrap: nowrap;
         justify-content: space-between;

@@ -1,5 +1,15 @@
 .section {
     padding: 130px 15px;
+
+
+}
+
+.section__inner {
     max-width: 1000px;
     margin: auto;
+}
+
+.section__title {
+    margin: auto;
+    width: fit-content;
 }

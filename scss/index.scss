@@ -1,8 +1,24 @@
-@import 'section-header.scss';
 @import 'section.scss';
+@import 'flex-container.scss';
+@import 'section-header.scss';
 @import 'section-about-me.scss';
+@import 'section-services.scss';
+@import 'card.scss';
+@import 'service-item.scss';
+
 
 body {
     margin: 0;
+    min-width: 210px;
     letter-spacing: 1.3px;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.title-underline {
+    height: 3px;
+    width: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #ef70a8;
 }
