@@ -1,0 +1,41 @@
+.section-sign {
+    background: #f8f8f8;
+}
+
+.section-sign__flex-container {
+    @media screen and (min-width: 700px) {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}
+
+.section-sign__part {
+    padding: 20px;
+}
+
+.section-sign__part-title {
+    text-align: center;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.section-sign__phone {
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    width: fit-content;
+    color: black;
+}
+
+.section-sign__email,
+.section-sign__other {
+    text-align: center;
+}
+
+.section-sign__other img {
+    width: 48px;
+    height: 48px;
+}
