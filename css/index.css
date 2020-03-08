@@ -438,13 +438,12 @@ fieldset {
 }
 
 .section-header {
-  padding: 0 15px;
+  padding: 130px 15px;
   background-image: url(../img/section_header_bg_lite.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
-  height: 100vh;
 }
 @supports (-webkit-touch-callout: none) {
   .section-header {
@@ -453,12 +452,12 @@ fieldset {
 }
 @media screen and (min-width: 600px) {
   .section-header {
-    padding: 0 20px;
+    padding: 200px 20px;
   }
 }
 @media screen and (min-width: 900px) {
   .section-header {
-    padding: 0 20px;
+    padding: 300px 20px;
   }
 }
 
