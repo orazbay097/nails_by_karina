@@ -7,7 +7,7 @@
     display: flex;
     height: 100vh;
 
-    @media screen and (max-width: 600px) {
+    @supports (-webkit-touch-callout: none) {
         background-attachment: scroll;
     }
     @media screen and (min-width: 600px) {

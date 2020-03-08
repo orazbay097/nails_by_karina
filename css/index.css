@@ -446,6 +446,11 @@ fieldset {
   display: flex;
   height: 100vh;
 }
+@supports (-webkit-touch-callout: none) {
+  .section-header {
+    background-attachment: scroll;
+  }
+}
 @media screen and (min-width: 600px) {
   .section-header {
     padding: 0 20px;
