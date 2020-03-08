@@ -1,20 +1,21 @@
 .section-header {
-    padding: 130px 15px;
+    padding: 0px 15px;
     background-image: url(../img/section_header_bg_lite.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
+    height: 50vh;
 
     @supports (-webkit-touch-callout: none) {
         background-attachment: scroll;
     }
     @media screen and (min-width: 600px) {
-        padding: 200px 20px;
+        padding: 0px 20px;
     }
 
     @media screen and (min-width: 900px) {
-        padding: 300px 20px;
+        padding: 0px 20px;
     }
 }
 
